@@ -19,3 +19,6 @@ class TestDeposit:
     def test_withdrawal(self):
         assert self.transaction.withdrawal(150000) == 2005000
     
+    def test_airtime_purchase(self):
+        assert self.transaction.airtime_purchase(1000,'08030000000') == 2004000
+    
