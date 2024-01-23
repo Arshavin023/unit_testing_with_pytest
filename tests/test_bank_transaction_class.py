@@ -1,5 +1,5 @@
 import pytest
-import source_code.bank_transactions as bank_transactions
+import source.bank_transactions as bank_transactions
 import math
 
 class TestDeposit:

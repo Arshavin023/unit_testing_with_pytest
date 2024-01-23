@@ -13,7 +13,7 @@ class UserActivity:
 
 class Transaction(UserActivity):
     database = {
-        "1": {"first_name": "Uche", "last_name": "Nnodim", "Phone Number": "08167164325", "occupation": "Data Engineer", "balance": 203000},
+        "1": {"first_name": "Uche", "last_name": "Nnodim", "Phone Number": "08104164129", "occupation": "Data Engineer", "balance": 203000},
         "2": {"first_name": "Jerry", "last_name": "Agulehi", "Phone Number": "08036098357", "occupation": "M & E Specialist", "balance": 2005000},
         "3": {"first_name": "Amara", "last_name": "Agulehi", "Phone Number": "08137164325", "occupation": "MakeUp Artist", "balance": 150200}
     }
