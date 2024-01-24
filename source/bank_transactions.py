@@ -7,19 +7,19 @@ class UserActivity:
         pass 
 class Transaction(UserActivity):
     database = {
-        "1": {"first_name": "Uche", "last_name": "Nnodim", "Phone Number": "08104164129",
+        1 : {"first_name": "Uche", "last_name": "Nnodim", "Phone Number": "08104164129",
                "occupation": "Data Engineer", "balance": 2005000},
-        "2": {"first_name": "Jerry", "last_name": "Agulehi", "Phone Number": "08036098357", 
+        2 : {"first_name": "Jerry", "last_name": "Agulehi", "Phone Number": "08036098357", 
               "occupation": "M & E Specialist", "balance": 2005000},
-        "3": {"first_name": "Amara", "last_name": "Agulehi", "Phone Number": "08137164325", 
+        3 : {"first_name": "Amara", "last_name": "Agulehi", "Phone Number": "08137164325", 
               "occupation": "MakeUp Artist", "balance": 150000},
-        "4": {"first_name": "Alex", "last_name": "Adogwa", "Phone Number": "08139164325", 
+        4 : {"first_name": "Alex", "last_name": "Adogwa", "Phone Number": "08139164325", 
               "occupation": "Doctorate Student", "balance": 85000000},
-        "5": {"first_name": "Michael", "last_name": "Asuquo", "Phone Number": "08137164328", 
+        5 : {"first_name": "Michael", "last_name": "Asuquo", "Phone Number": "08137164328", 
               "occupation": "Engineering Manager", "balance": 9000000}
     }
 
-    def __init__(self, customer_id: str):
+    def __init__(self, customer_id: int):
         self.customer_id = customer_id
         
 
